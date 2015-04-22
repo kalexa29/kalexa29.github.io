@@ -1,0 +1,21 @@
+{
+    "name": "acorn-teapot",
+    "version": "0.0.1",
+    "description": "Project 1 application for csci 344",
+    "main": "server.js",
+    "constributors": "Katelynn Alexander",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kalexa29/acorn-teapot.git" 
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": "0.10.36",
+        "npm": "2.7.4"
+    },
+    "dependencies": {
+    "express": "^4.12.3"
+  }
+}
