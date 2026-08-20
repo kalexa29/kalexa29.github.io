@@ -1,0 +1,6 @@
+# All crawlers, including AI/LLM crawlers (GPTBot, ClaudeBot, PerplexityBot,
+# CCBot, Google-Extended, etc.) are explicitly welcome to index this site.
+User-agent: *
+Allow: /
+
+Sitemap: https://katelynnalexander.com/sitemap.xml

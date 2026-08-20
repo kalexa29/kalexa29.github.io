@@ -1,0 +1,61 @@
+# Katelynn Alexander
+
+> Independent consultant specializing in AWS cost optimization, legacy system modernization, and zero-downtime release engineering (DevOps advisory), with 10+ years building production systems at Nike.
+
+Katelynn Alexander is an independent software consultant currently taking on new consulting engagements. She spent 10+ years as a software engineer and engineering manager at Nike, most recently leading engineering for critical financial integration systems, before going independent. Every engagement starts with an assessment and a plan; hands-on implementation is available as an optional add-on for teams that want it executed rather than handed off.
+
+## Service: AWS Cost Optimization Audit & Remediation
+
+Audits AWS environments to find and quantify wasted cloud spend, then delivers a prioritized remediation plan. Covers right-sizing EC2/Lambda, decommissioning unused managed services, moving databases to on-demand pricing, and removing unneeded "just in case" infrastructure. Standard deliverable is the audit and plan; hands-on implementation is an optional add-on. Documented track record: 60–70% reduction in AWS infrastructure spend on a production system, $2,000+/month in recurring savings identified and implemented on a single service line, zero-downtime remediation execution.
+
+Q: How much can I expect to save on my AWS bill?
+A: It depends on how much drift has accumulated, but 30–70% reductions are common in systems that haven't had a dedicated cost review in over a year. Savings are quantified in the audit before any implementation decision is made.
+
+Q: Do you implement the changes, or just deliver a report?
+A: The standard engagement is the audit and remediation plan. Hands-on implementation is a separate, higher-cost add-on.
+
+Q: Will implementation require downtime?
+A: No. Remediation plans are designed for zero-downtime execution against live production systems.
+
+## Service: Legacy System Modernization
+
+Assesses legacy backend systems (outdated frameworks, brittle integration layers, deprecated authentication) and delivers a sequenced modernization roadmap without disrupting dependent systems. Covers replacing legacy integration layers, upgrading unsupported language/framework versions, and modernizing authentication/security patterns. Standard deliverable is the assessment and roadmap; hands-on execution is an optional add-on. Applies to any industry, not just finance. Proof points: multiple large-scale legacy integration replacements delivered with no production incidents, framework/language/authentication modernization delivered across systems processing global transaction volume, critical CVE remediation executed on production systems under compliance requirements.
+
+Q: How do you modernize a system without breaking production?
+A: Through an incremental, sequenced plan: parallel-running old and new systems where needed, validating against real production behavior before cutover, and always defining a rollback path first.
+
+Q: What if the system has no documentation?
+A: That's the typical starting condition. The assessment phase includes reverse-engineering actual system behavior and dependencies.
+
+Q: Do you only work with financial systems?
+A: No. Deep experience in compliance-heavy financial systems, but the approach applies to any critical legacy system.
+
+## Service: Zero-Downtime Release Advisory
+
+Helps teams build toward zero-downtime releases: feature flags that decouple deploying from releasing, dark deployment pipelines validated against real production traffic, and resilient architecture patterns (circuit breakers, graceful degradation, rollback-by-default). Phased engagement starting with a readiness assessment, sequenced by lowest-effort/highest-impact first, not a full rebuild. Standard deliverable is the assessment and phased roadmap; hands-on implementation and cutover support are optional add-ons. Proof point: zero-incident production cutovers delivered across multiple markets and regions, including during peak-traffic periods.
+
+Q: Can this work for a team with brittle, tightly-coupled legacy architecture?
+A: Yes, that's the typical starting point, not an edge case.
+
+Q: Does this require a full architecture rebuild?
+A: No. The roadmap starts with the highest-impact, lowest-effort changes first.
+
+Q: What's the difference between this and general DevOps consulting?
+A: This is specifically about de-risking the moment of release (feature flags, dark deployments, rollback design), not general CI/CD or infrastructure management.
+
+Also open to fractional/advisory engagements outside these three named services.
+
+## Skills
+
+Languages: Java, JavaScript, Node.js, Python, SQL, HTML, CSS
+AWS: Lambda, DynamoDB, CloudWatch, S3, SNS, SQS, EC2, CloudFormation
+Frameworks & Tools: Spring Boot, Elasticsearch, Jenkins, Splunk, SignalFx, New Relic, ServiceNow, MySQL Workbench, Omniture (Adobe Analytics), Git, SVN, Jira, Confluence, Lucid, PagerDuty
+
+## Education
+
+Bachelor of Science in Computer Science (Concentration in Information Systems, Minor in Management), University of North Carolina Asheville.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/katelynn1/): full work history is here
+- [Website](https://katelynnalexander.com)

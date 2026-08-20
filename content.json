@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Katelynn Alexander: AWS Cost Optimization, Legacy Modernization & Release Consulting",
+    "description": "Independent consultant specializing in AWS cost optimization, legacy system modernization, and zero-downtime release engineering (DevOps advisory). 10+ years building production systems at Nike, with a documented record of 60–70% infrastructure cost reduction.",
+    "ogDescription": "Independent consultant specializing in AWS cost optimization, legacy system modernization, and zero-downtime release engineering. 10+ years of experience, most recently at Nike.",
+    "canonicalUrl": "https://katelynnalexander.com",
+    "linkedinUrl": "https://www.linkedin.com/in/katelynn1/",
+    "linkedinDisplay": "linkedin.com/in/katelynn1"
+  },
+
+  "hero": {
+    "name": "Katelynn Alexander",
+    "role": "Independent Software Consultant: AWS Cost Optimization, Legacy Modernization & Zero-Downtime Releases",
+    "summary": "Ten years building backend systems that hold up at scale, including cutting one team's AWS spend by 70% without touching reliability. I now bring that same architecture and infrastructure work to teams as an independent consultant.",
+    "primaryCta": { "label": "Start a project", "href": "#contact" },
+    "secondaryCta": { "label": "View LinkedIn ↗", "hrefKey": "linkedinUrl" }
+  },
+
+  "services": {
+    "label": "Services",
+    "title": "How I can help",
+    "intro": "I help engineering teams cut cloud costs, build a roadmap for modernizing the legacy systems everyone's afraid to touch, and move toward shipping changes to production without downtime. Every engagement starts with an assessment and a plan. Implementation is available if you want it executed, not just handed off. My background is in systems engineering at enterprise scale under real compliance and uptime constraints, and I bring that same discipline to independent advisory work across industries.",
+    "items": [
+      {
+        "id": "aws-cost-optimization",
+        "title": "AWS Cost Optimization Audit & Remediation",
+        "summary": "I audit AWS environments to find and quantify wasted cloud spend, then deliver a prioritized remediation plan your team can execute. This covers right-sizing over-provisioned compute (EC2, Lambda), decommissioning managed services kept running past their useful life, moving databases from static over-provisioning to on-demand pricing, and removing \"just in case\" infrastructure held over for scaling needs that no longer apply. The core deliverable is the audit and plan; hands-on implementation is available as an add-on for teams that want it executed rather than handed off. I have a documented track record of identifying and (where engaged to implement) delivering 60–70% reductions in AWS infrastructure spend on production systems.",
+        "whoFor": "Any engineering team that suspects their AWS bill is higher than it needs to be but doesn't have the bandwidth to run a full audit: SaaS, e-commerce, internal tooling, or transaction-heavy systems alike. Particularly valuable for teams operating under uptime or compliance constraints where changes can't just be pushed without a plan.",
+        "scope": [
+          "Full audit of compute, storage, and managed-service spend against actual usage patterns",
+          "Right-sizing recommendations for EC2 and Lambda",
+          "Database provisioning review (on-demand vs. static capacity)",
+          "Identification of deprecated or redundant managed services still generating cost",
+          "Prioritized remediation plan ranked by cost impact and implementation risk",
+          "Optional add-on: hands-on implementation of approved changes"
+        ],
+        "proofPoints": [
+          "60–70% reduction in AWS infrastructure spend identified and delivered on a production system",
+          "$2,000+/month in recurring savings identified and implemented on a single service line",
+          "Remediation plans designed for zero-downtime execution against live systems"
+        ],
+        "faq": [
+          { "q": "How much can I expect to save on my AWS bill?", "a": "It depends on how much drift has accumulated in your environment, but 30–70% reductions are common in systems that haven't had a dedicated cost review in over a year. Savings are quantified in the audit before any implementation decision is made." },
+          { "q": "Do you implement the changes, or just deliver a report?", "a": "The standard engagement is the audit and remediation plan. Hands-on implementation is available as a separate, higher-cost add-on for teams that want the work done rather than handed off." },
+          { "q": "Will implementation require downtime?", "a": "No. Remediation plans are designed to be executed against live production systems without service interruption." },
+          { "q": "What kinds of systems do you work with?", "a": "Any team running production workloads on AWS. I have particular depth in systems with compliance or uptime constraints, but the audit approach applies broadly." }
+        ]
+      },
+      {
+        "id": "legacy-modernization",
+        "title": "Legacy System Modernization",
+        "summary": "I assess legacy backend systems (outdated frameworks, brittle integration layers, deprecated authentication patterns) and deliver a sequenced modernization roadmap that gets you to current, supportable architecture without disrupting the systems that depend on it. This covers replacing legacy data-transformation and integration layers, upgrading core language and framework versions off unsupported releases, and modernizing authentication and security patterns. The standard deliverable is the assessment and migration roadmap; hands-on execution is available as an add-on. This work is best suited to systems that are business-critical, poorly documented, and effectively unowned because the original engineers have moved on, and that applies in any industry, not just finance.",
+        "whoFor": "Organizations running critical infrastructure on systems nobody currently on the team fully understands or wants to touch, where the risk of not modernizing (security exposure, vendor end-of-life, inability to hire for the stack) has started to outweigh the risk of touching it.",
+        "scope": [
+          "Assessment of legacy system architecture, dependencies, and modernization risk",
+          "Sequenced migration roadmap prioritized by risk and business impact",
+          "Recommendations for replacing legacy integration/transformation layers",
+          "Framework, language, and authentication modernization planning",
+          "Optional add-on: hands-on migration execution"
+        ],
+        "proofPoints": [
+          "Multiple large-scale legacy integration replacements planned and delivered with no production incidents",
+          "Framework, language, and authentication modernization delivered across systems processing global transaction volume",
+          "Security vulnerability remediation, including critical CVEs, executed on production systems under compliance requirements"
+        ],
+        "faq": [
+          { "q": "How do you modernize a system without breaking production?", "a": "Through an incremental, sequenced plan: running old and new systems in parallel where needed, validating against real production behavior before cutover, and always defining a rollback path before a change ships." },
+          { "q": "What if the system has no documentation?", "a": "That's the typical starting condition for this kind of engagement. The assessment phase includes reverse-engineering the system's actual behavior and dependencies, not just reading what documentation exists." },
+          { "q": "Do you only work with financial systems?", "a": "No. My background includes deep experience in compliance-heavy financial systems, but the assessment and modernization approach applies to any critical legacy system, regardless of industry." },
+          { "q": "Is this a one-time project or ongoing work?", "a": "Both models work. Some engagements are a single scoped assessment and roadmap; others continue into phased execution over multiple quarters." }
+        ]
+      },
+      {
+        "id": "zero-downtime-releases",
+        "title": "Zero-Downtime Release Advisory",
+        "summary": "I help teams build toward zero-downtime releases: feature-flag systems that decouple deploying code from releasing it to users, dark deployment pipelines that validate new services against real production traffic before they take live load, and resilient architecture patterns (circuit breakers, graceful degradation, rollback-by-default) that shrink the blast radius of any single change. This isn't a one-time fix. For teams starting from brittle, tightly-coupled legacy architecture, it's a phased investment: the engagement begins with a readiness assessment that identifies the highest-risk points in your current release process and sequences the architectural changes needed, starting with the lowest-effort, highest-impact wins rather than a full rebuild. The standard deliverable is the assessment and phased roadmap; hands-on implementation of flag infrastructure, dark-deploy pipelines, and cutover support is available as an add-on.",
+        "whoFor": "Teams with a multi-market, multi-region, or multi-tenant system (or simply a system where downtime during releases is currently causing pain) who want to move toward zero-downtime deployments but recognize their current architecture isn't ready for that overnight.",
+        "scope": [
+          "Release-risk and architecture readiness assessment",
+          "Phased roadmap sequencing feature-flag adoption, dark deployment capability, and resilience patterns",
+          "Cutover and rollback plan design for near-term releases",
+          "Optional add-on: hands-on implementation of flag/rollback infrastructure and dark-deploy pipelines",
+          "Optional add-on: live support during cutover windows"
+        ],
+        "proofPoints": [
+          "Zero-incident cutovers delivered across multiple markets and regions",
+          "Zero-incident performance during peak-load traffic periods",
+          "Roadmaps designed to meet teams where their architecture currently is, not where it needs to eventually be"
+        ],
+        "faq": [
+          { "q": "Can this work for a team with brittle, tightly-coupled legacy architecture?", "a": "Yes, that's the typical starting point, not an edge case. The engagement begins with an assessment that acknowledges current constraints and builds a phased path forward rather than assuming resilient architecture is already in place." },
+          { "q": "Does this require a full architecture rebuild?", "a": "No. The roadmap is sequenced to start with the highest-impact, lowest-effort changes first. A full rebuild is sometimes part of a long-term roadmap, but it's never the starting requirement." },
+          { "q": "What's the difference between this and general DevOps consulting?", "a": "This is specifically about de-risking the moment of release (feature flags, dark deployments, and rollback design), not general CI/CD tooling or infrastructure management." },
+          { "q": "Does this require me to be available during a live cutover?", "a": "Most of the work (the assessment, roadmap, and infrastructure design) is async. Live availability is only needed if you engage the optional cutover-support add-on, and even then the goal is to make that window short and low-stakes rather than a required war-room event." }
+        ]
+      }
+    ],
+    "note": "Also open to fractional/advisory engagements outside these three areas. Reach out and we can scope it together."
+  },
+
+  "skills": {
+    "label": "Skills",
+    "title": "Languages & Technologies",
+    "groups": [
+      { "name": "Languages", "tags": ["Java", "JavaScript", "Node.js", "Python", "SQL", "HTML", "CSS"] },
+      { "name": "AWS", "tags": ["Lambda", "DynamoDB", "CloudWatch", "S3", "SNS", "SQS", "EC2", "CloudFormation"] },
+      { "name": "Frameworks & Tools", "tags": ["Spring Boot", "Elasticsearch", "Jenkins", "Splunk", "SignalFx", "New Relic", "ServiceNow", "MySQL Workbench", "Omniture (Adobe Analytics)", "Git", "SVN", "Jira", "Confluence", "Lucid", "PagerDuty"] }
+    ]
+  },
+
+  "education": {
+    "label": "Education",
+    "title": "Background",
+    "degree": "Bachelor of Science in Computer Science",
+    "school": "University of North Carolina Asheville",
+    "detail": "Concentration in Information Systems · Minor in Management"
+  },
+
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "text": "Currently taking on new consulting engagements: architecture reviews, infrastructure builds, and cost optimization work. The fastest way to reach me is the form, or connect with me on LinkedIn, where you can also see my full work history.",
+    "formAction": "https://api.web3forms.com/submit",
+    "accessKey": "6ba6aa9d-26e0-4782-9d47-d36341600719",
+    "formSubject": "New message from katelynnalexander.com",
+    "successMessage": "Thanks, that sent successfully. I'll get back to you soon.",
+    "errorMessage": "Something went wrong sending that. Please try again, or reach out on LinkedIn instead."
+  },
+
+  "footer": {
+    "text": "© 2026 Katelynn Alexander"
+  }
+}
